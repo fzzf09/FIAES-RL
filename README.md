@@ -1,5 +1,6 @@
 # FIAES-RL:Toward Fairness in Information Access on Social Networks via Edge Suggestion
-This repository hosts the implementation code for the "Toward Fairness in Information Access on Social Networks via Edge Suggestion" as introduced in our research paper. 
+This repository hosts the implementation code for the "A Reinforcement Learning Approach to Edge Suggestion for Fair
+Information Access on Social Networks" as introduced in our research paper. 
 
 ## Prerequisites
 
