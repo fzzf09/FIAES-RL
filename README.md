@@ -15,24 +15,17 @@ cuda 11.2
 tensorflow==2.9.1
 keras==2.9.0
 ```
-
-### Hardware
-We ran on a Nvidia RTX 3090 with a 14-core Intel Xeon(R) Platinum 8362 processor @3.6GHz, 64GB RAM. 
-
 ### Dataset
 Our repository contains four publicly available network datasets: the synthetic Antelope Valley network, three real-world networks,
 Email-Eu, Epinions, and Facebook, downloaded from the SNAP collection https://snap.stanford.edu/data/
 
 ## Experiments
-The run_experiments.py generates all results for: 
-1. FIAES-RL
-2. Baseline method
+The run_experiments.py generates all results for FIAES-RL
 
 On each of the outputted graphs, we run 1,000 Monte-Carlo simulations under the IC model and evaluate our main two criteria:
 
 1. Influence Boost Ratio
 2. Equity Score
 
-Train the FIAES-RL model and evaluate it alongside other baselines across different datasets:
-
+Train the FIAES-RL model and evaluate it across different datasets:
 ```python run_experiments.py```
